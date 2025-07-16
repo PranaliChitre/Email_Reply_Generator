@@ -44,8 +44,13 @@ A smart, context-aware **Gmail Chrome Extension** that uses **Google Gemini API*
 ```bash
 git clone https://github.com/yourusername/ai-email-reply-generator.git
 cd ai-email-reply-generator
+```
 
-2. Set Up the Backend
+### 2. Set Up the Backend
 Go to the backend/ folder.
-
 Open src/main/resources/application.properties and configure:
+
+```bash
+gemini.api.key=YOUR_GEMINI_API_KEY
+spring.cors.allowed-origins=http://localhost:PORT
+```
