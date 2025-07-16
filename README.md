@@ -1,32 +1,36 @@
-📧 AI Email Reply Generator Extension
-A smart, context-aware Gmail Chrome Extension that uses Google Gemini API and a Spring Boot backend to generate professional email replies. This extension observes the Gmail DOM using MutationObserver, detects when the user is replying, and injects a "Generate Reply" button directly into the Gmail interface.
+# 📧 AI Email Reply Generator Extension
 
-✨ Key Features
-🧠 AI-Powered Email Response Generation
-Automatically generates email replies using Google's Gemini API based on email context.
+A smart, context-aware **Gmail Chrome Extension** that uses **Google Gemini API** and a **Spring Boot backend** to generate professional email replies. This extension observes the Gmail DOM using **MutationObserver**, detects when the user is replying, and injects a **"Generate Reply"** button directly into the Gmail interface.
 
-📨 Real-Time DOM Detection
-Uses MutationObserver to detect when a reply box is opened in Gmail.
+---
 
-🖱️ One-Click Reply Generation
-Adds a "Generate Reply" button next to Gmail's Send button for seamless interaction.
+## ✨ Features
 
-🔗 Spring Boot Backend
-Handles API requests, Gemini prompt formatting, and securely bridges the extension with Gemini AI.
+- 🧠 **AI-Powered Email Reply Suggestions**  
+  Automatically generates intelligent replies using the Gemini API based on the email thread content.
 
-🧩 Chrome Extension Integration
-Fully embedded within Gmail—no need to switch tabs or copy content.
+- 📨 **Real-Time Gmail Monitoring**  
+  Uses MutationObserver to detect when a reply box appears in Gmail.
 
-🛠 Tech Stack
-Backend: Spring Boot (Java)
+- 🖱️ **Inline Reply Button**  
+  Adds a custom "Generate Reply" button next to Gmail's native "Send" button.
 
-AI Integration: Google Gemini API
+- 🔧 **Spring Boot Backend**  
+  Handles Gemini API communication, request routing, and response formatting.
 
-Frontend: Chrome Extension (JavaScript, HTML, CSS)
+- 🔗 **Seamless Gmail Integration**  
+  Works directly inside Gmail via a Chrome Extension—no need to leave the inbox.
 
-Gmail Interaction: Gmail DOM, MutationObserver
+---
 
-⚙️ Setup Instructions
-1. Clone the Repository
-   ```git clone https://github.com/yourusername/ai-email-reply-generator.git
-cd ai-email-reply-generator```
+## 🛠 Tech Stack
+
+- **Frontend**: Chrome Extension (JavaScript, HTML, CSS)
+- **Backend**: Spring Boot (Java)
+- **AI**: Gemini API (Google Generative AI)
+- **Browser API**: MutationObserver, DOM Manipulation
+
+---
+
+## 📁 Project Structure
+
